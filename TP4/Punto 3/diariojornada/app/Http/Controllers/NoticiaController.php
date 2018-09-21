@@ -44,6 +44,7 @@ class NoticiaController extends Controller
 
         try{
             $noticia = new Noticia;
+            $noticia->id = $data['id'];
             $noticia->titulo = $data['titulo'];
             $noticia->subtitulo = $data['subtitulo'];
             $noticia->fecha_creacion = $data['fecha_creacion'];
