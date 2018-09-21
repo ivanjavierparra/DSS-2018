@@ -1,0 +1,31 @@
+Crear en MySQL una BD "diariojornada".
+
+En la carpeta diariojoranada, buscar el archivo .env 
+y poner alli tu usuario y pass de mysql, el mio es user="root"
+y pass=''
+
+Dentro de la carpeta diariojornada ejecutar:
+> php artisan migrate
+
+Instalar:
+https://chrome.google.com/webstore/detail/restlet-client-rest-api-t/aejoelaoggembcahagimdiliamlcdmfm/related
+
+Instalar:
+https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi
+
+Para hacer un Post:
+{
+  "titulo" : "Cristina presa",
+  "subtitulo" : "Terrible quilombo",
+  "fecha_creacion" : "14/10/2010",
+  "seccion" : "SOCIEDAD",
+  "visitas" : "140",
+  "noticias_relacionadas" : "www.google.com.ar",
+  "tags" : "cristina, moyano",
+  "cantidad_comentarios" : "12",
+  "cantidad_megusta" : "10",
+  "primer_parrafo" : "Habia una vez.....",
+  "texto" : "sadasdmwkldmweldlwkdmwlkedmwlekdnwe. elkmdasdmasdlsnd.dl"
+  
+}  
+      
