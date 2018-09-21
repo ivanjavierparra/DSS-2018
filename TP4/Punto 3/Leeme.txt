@@ -4,17 +4,25 @@ En la carpeta diariojoranada, buscar el archivo .env
 y poner alli tu usuario y pass de mysql, el mio es user="root"
 y pass=''
 
-Dentro de la carpeta diariojornada ejecutar:
-> php artisan migrate
-
-Para ejecutar el servidor
-> php artisan serve
 
 Instalar:
 https://chrome.google.com/webstore/detail/restlet-client-rest-api-t/aejoelaoggembcahagimdiliamlcdmfm/related
 
 Instalar:
 https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi
+
+
+Dentro de la carpeta diariojornada ejecutar:
+> php artisan migrate
+
+Para ejecutar el servidor
+> php artisan serve
+
+Para usar la api:
+> GET/POST/PUT/DELETE
+Ej: GET http://localhost:8000/api/noticias
+Te trae todas las noticias guardadas.
+
 
 Para hacer un Post:
 {
